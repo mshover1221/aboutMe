@@ -7,8 +7,15 @@
     outline: 0;
     font-size: 100%;
     vertical-align: baseline;
-    background: transparent;
+    /* background: transparent; */
 }
+a{
+    text-decoration: none;
+}
+
+
+
+
 
 
 .home html {
@@ -152,7 +159,7 @@
     min-height: 100vh;
 }
 .about{
-    background-image: url(beautiful.jpg);
+    background-image: url(./img/beautiful.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -181,11 +188,11 @@
 .content p{
     font-weight: lighter;
     letter-spacing: 1px;
-    width: 70%;
+    width: 50%;
     margin: 10px auto;
 }
 .interests {
-    background-image: url(city1.jpg);
+    background-image: url(./img/city1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -195,7 +202,7 @@
     font-size: 80px;
 }
 .fab:hover{
-    color: blue;
+    color: white;
 }
 .fas {
     color: orange;
@@ -210,3 +217,59 @@
     text-align: center;
     border-radius: 5px;
 }
+.interests h1, h2 {
+    color: wheat;
+    font-size: 40px;
+    text-align: center;
+}
+.essay h1{
+    font-size: 30px;
+    text-decoration-line: underline;
+    margin-top: 1%;
+}
+.essay {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    border: dashed;
+    border-color: crimson;
+    background-color: black;
+
+}
+.essay p {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.myPage {
+    background: rgba(0, 148, 255, 0.73);
+}
+.myPage h1, h3{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+.Page_1{
+    margin: 10%;
+    text-align: center;    
+
+}
+    .Page_1 .button {
+        display: inline-block;
+        padding: 5px 10px;
+        color: black;
+        background-color: transparent;
+        border: 2px solid crimson;
+        font-size: 1rem;
+        text-transform: uppercase;
+        letter-spacing: .1rem;
+        margin-top: 20px;
+        transition: .3s ease;
+        transition-property: background-color, color;
+    }
+    .Page_1 .button:hover{
+        color: white;
+        background-color: black;
+    }
+
