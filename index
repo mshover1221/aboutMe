@@ -14,17 +14,17 @@
     
     <div class="Page_1">
 
-        <a href="hello_world/hello.html" type="button" class="button">Hello World</a>
+        <a href="hello_world/hello.html" type="button" title="Hello World Page" class="button">Hello World</a>
         <br />
-        <a href="ImagePage/imagepage.html" type="button" class="button">Image Page</a>
+        <a href="ImagePage/imagepage.html" type="button" title="My Image Page" class="button">Image Page</a>
         <br />
-        <a href="Form_Assignment/MyForm.html" type="button" class="button">My Form</a>
+        <a href="Form_Assignment/MyForm.html" type="button" title="My Form" class="button">My Form</a>
         <br />
-        <a href="personalpage/MyPersonalPage.html" type="button" class="button">My Personal Page</a>
+        <a href="personalpage/MyPersonalPage.html" type="button" title="My Personal Page" class="button">My Personal Page</a>
         <br />
-        <a href="essay/essay.html" type="button" class="button">Essay Page</a>
+        <a href="essay/essay.html" type="button" title="My Essay" class="button">Essay Page</a>
         <br />
-        <a href="project/mybigproject.html" type="button" class="button">My Big Project</a>
+        <a href="project/mybigproject.html" type="button" title="My Project" class="button">My Big Project</a>
 
     </div>
 </body>
