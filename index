@@ -1,31 +1,48 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
-
+    <meta name="Author" content="Matthew Shover" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Here you will find my index page, from there you can click the links to my other pages" />
+    <meta name="robots" content="noindex,nofollow" />
+    <meta http-equiv="refresh" content="60">
     <meta charset="utf-8">
     <link rel="stylesheet" href="./style.css" />
     <title>Matts Index Page</title>
 </head>
 
-<body class="myPage">
+    <body class="myPage">
 
-    <h1>~Welcome to Matt's Index Page!~</h1>
-    <h3>Below you will find links to all of Matt's hard work :)</h3>
+        <header class="myHeader">
+            <h1>~Welcome to Matt's Index Page!~</h1>
+            <h3>Below you will find links to all of Matt's hard work :)</h3>
+        </header>
     
-    <div class="Page_1">
+        <div class="Page_1">
 
-        <a href="hello_world/hello.html" type="button" title="Hello World Page" class="button">Hello World</a>
-        <br />
-        <a href="ImagePage/imagepage.html" type="button" title="My Image Page" class="button">Image Page</a>
-        <br />
-        <a href="Form_Assignment/MyForm.html" type="button" title="My Form" class="button">My Form</a>
-        <br />
-        <a href="personalpage/MyPersonalPage.html" type="button" title="My Personal Page" class="button">My Personal Page</a>
-        <br />
-        <a href="essay/essay.html" type="button" title="My Essay" class="button">Essay Page</a>
-        <br />
-        <a href="project/mybigproject.html" type="button" title="My Project" class="button">My Big Project</a>
+            <a href="hello_world/hello.html" title="Hello World Page" class="button">Hello World</a>
+            <br />
+            <a href="ImagePage/imagepage.html" title="My Image Page" class="button">Image Page</a>
+            <br />
+            <a href="Form_Assignment/MyForm.html" title="Form" class="button">My Form</a>
+            <br />
+            <a href="personalpage/MyPersonalPage.html" title="Personal Page" class="button">My Personal Page</a>
+            <br />
+            <a href="essay/essay.html" title="My Essay" class="button">Essay Page</a>
+            <br />
+            <a href="project/mybigproject.html" title="My Project" class="button">My Big Project</a>
 
-    </div>
-</body>
+        </div>
+
+        <div class="myFooter">
+
+            <footer title="Footer">
+                <p>* Page brought to you by Matt *</p>
+                <address>
+                    <a href="mailto:Mshover9859@gmail.com">Contact Me</a>
+                </address>
+             </footer>
+        </div>
+    </body>
+
 </html>
